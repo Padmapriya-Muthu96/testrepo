@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+  background-image: url(" https://static-cse.canva.com/blob/572626/1.magebyRodionKutsaevviaUnsplash.jpg");  
+
+    }
+    .parent{
+       
+        /* background-color: rgb(0, 255, 0); */
+        /* background-image: url("img_tree.png");
+        background-position: top right; */
+        border: 1px solid black;
+        color: blue;
+        
+    }
+   
+    .pos{
+        position: relative;
+        left: 30px;
+        background-color: aqua;
+        border: 1px red;
+    }
+    .but{
+        background-color: green;
+        position: absolute;
+        top: 25%;
+        right: 50%;
+        right: 0;
+        
+    }
+    #flexd{
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: aliceblue;
+    }
+    #flex12{
+        display: flex;
+       flex-direction: column;
+        background-color: aliceblue;
+        position: absolute;
+    }
+    .wrap{
+        height: 200px;
+        width: 200px;
+        background-color: aqua;
+        border: 3px solid black;
+        display: flex;
+  flex-wrap: wrap;
+        
+    }
+    .wrap div {
+  width: 50px;
+  height: 50px;
+}
+.wrap12{
+    background-color: aliceblue;
+    width: 700px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.wrap12 div{
+    width: 70px;
+    height: 70px;
+}
+.grad{
+    background-image: linear-gradient(to bottom right, red, green, blue, pink);
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+.grad12{
+    background-image: radial-gradient( red, green,blue);
+    width: 300px;
+    height: 300px;
+}
+.over{
+height: 150px;
+width: 150px;
+border: 2px solid black;
+background-color: pink;
+overflow: scroll;
+}
+</style>
+</head>
+<body>
+    <div class="pos"> <h3>checking the position</h3></div>
+    <div class="but"><button>click me</button></div>
+    <div class="parent">
+        <h1>My words</h1>
+    <div>hi i am learing full stack development, now i am practicing.
+        <p>The exact title of a sales position may vary by company. The same position may be called “sales representative,” “sales consultant” or “territory manager,” among other titles. Executives in a position of authority are often in charge of guiding how and where sales executives attempt to sell their products, and also sometimes are responsible for watching over and managing the results of sales. Those that actually perform sales tasks will have a variety of methods depending on what they are selling and whom they are selling to. In some cases, they may simply read from a script; in others, the sales executive must come to a deep understanding of the customer’s needs to attempt to deliver exactly the product needed, even if the sales executive himself is not sure what will meet the customer’s needs.</p>
+    </div>
+</div>
+<div id="flexd">
+<div style="background-color: aqua;">12</div>
+<div style="background-color: brown;">22</div>
+<div style="background-color: blue;">32</div>
+<div style="background-color: chartreuse;">42</div>
+<div style="background-color: darkmagenta;">52</div>
+</div>
+<!-- <div id="flex12">
+    <div style="background-color: aqua;">padma</div>
+    <div style="background-color: brown;">priya</div>
+    <div style="background-color: blue;">shiva</div>
+    <div style="background-color: chartreuse;">raman</div>
+    <div style="background-color: darkmagenta;">twins</div>
+    </div> -->
+    <div class="wrap">
+        <div style="background-color: aqua;">padma</div>
+        <div style="background-color: brown;">priya</div>
+        <div style="background-color: blue;">shiva</div>
+        <div style="background-color: chartreuse;">raman</div>
+        <div style="background-color: darkmagenta;">twins</div>
+        </div>
+        <div class="wrap12">
+            <div style="background-color: aqua;">padma</div>
+            <div style="background-color: brown;">priya</div>
+            <div style="background-color: blue;">shiva</div>
+            <div style="background-color: chartreuse;">raman</div>
+            <div style="background-color: darkmagenta;">twins</div>
+            </div>
+            <div class="grad">
+                <div>padmapriya</div>
+                <div>sivaraman</div>
+            </div>
+            <div class="grad12">
+                <div>padmapriya</div>
+                <div>sivaraman</div>
+            </div>
+            <div class="over">
+                <p>A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence l</p>
+            </div>
+</body>
+</html>
